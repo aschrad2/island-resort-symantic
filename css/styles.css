@@ -1,4 +1,14 @@
 h1 {
-    color: blue;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
 }
 
+img {
+    margin-top: 20px;
+}
+
+.nav-link {
+    color: #808080;
+}
