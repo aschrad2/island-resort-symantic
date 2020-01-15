@@ -5,25 +5,89 @@
     <meta charset="utf-8">
     <title>Code School Quiz</title>
     <!--Bootstrap, and my own css-->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet" type="text/css">
+    
+
+
     <!--jQuery CDN, followed by a link to my own scripts file-->
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <!-- <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script> -->
     <script src="js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js"></script>
   </head>
 
+  <div id="banner-image">
+      <img src="meditate.jpg">
+  </div>
+
   <body class="container">
-      <h1>Fhloston Paradise</h1>
-      <ul id="nav" class="nav navbar navbar-light bg-light">
+      <h1 class="ui blue header" id="title">Fhloston Paradise</h1>
+
+
+      <div class="ui secondary  menu">
+        <a class="active item">
+          Accomodations
+        </a>
+        <a class="item">
+          Activities
+        </a>
+        <a class="item">
+          Travel Arrangements
+        </a>
+        <a class="item">
+          Gallery
+        </a>
+        <a class="item">
+          Contact Us
+        </a>
+        <div class="right menu">
+          <div class="item">
+            <div class="ui icon input">
+              <input type="text" placeholder="Search...">
+              <i class="search link icon"></i>
+            </div>
+          </div>
+          <a class="ui item">
+            Logout
+          </a>
+        </div>
+      </div>
+
+
+      <!-- <ul id="nav" class="nav navbar navbar-light bg-light">
         <li><a class="nav-link" href="accommodations.html">Accommodations</a></li>
         <li><a class="nav-link" href="activities.html">Activities</a></li>
         <li><a class="nav-link" href="travel_arrangements.html">Travel Arrangements</a></li>
         <li><a class="nav-link" href="pictures.html">Gallery</a></li>
         <li><a class="nav-link" href="contact.html">Contact Us</a></li>
-      </ul>
-      
-      <img src="img/main.jpg" class="img-fluid">
+      </ul> -->
 
+
+
+
+     <div id="image">
+      <a href="https://google.com" class="ui fluid image">
+        <img src="img/main.jpg">
+      </a>
+    </div>
+
+      <!-- <img src="img/main.jpg" class="img-fluid"> -->
+
+      <div class="ui labeled button" tabindex="0">
+        <div class="ui red button">
+          <i class="heart icon"></i> Like
+        </div>
+        <a class="ui basic red left pointing label">
+          1,048
+        </a>
+      </div>
+      <div class="ui labeled button" tabindex="0">
+        
+        
+        </a>
+      </div>
   </body>
+  
 </html>  
 
